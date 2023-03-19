@@ -1773,9 +1773,10 @@ PopUp
 .popupContainer {
   position: absolute;
   width: 50%;
-  height: auto;
+  height: 80%;
   border-radius: 5px;
   left: 35%;
+  overflow:auto;
   top: 10px !important;
   background: #FFF;
   box-shadow:  4px 2px 2px rgb(4, 15, 48);
@@ -1788,7 +1789,8 @@ PopUp
   .popupContainer {
     position: absolute;
     width: 360px;
-    height: auto;
+    height: 80%;
+    overflow:auto;
     left: 35%;
     top: 10% !important;
     background: #FFF;
