@@ -16,9 +16,9 @@ const newMessage = async (req, res) => {
             to: 'giodevswebservices@gmail.com', 
             subject: 'New Message For iWebs', 
             html: ` 
-            <body style="background-color:rgb(255, 235, 235); padding:10px; height:100%; width:100%"> 
+            <body style="background-color:#cff7f7; padding:10px; height:100%; width:100%"> 
     <div style="text-align:left; min-height:100; padding:20px"> 
-        <h1 style="color:white; text-align: center; padding: 10px; text-shadow:0px 11px 5px rgb(148, 132, 88);background: linear-gradient(-145deg, rgb(30, 19, 77) 0%, rgb(211, 90, 35) 100%); border-radius: 10px;"> <strong>Gio-Devs</strong> </h1> 
+        <h1 style="color:white; text-align: center; padding: 10px; text-shadow:0px 11px 5px rgb(148, 132, 88);background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);border-radius: 10px;"> <strong>iWebs</strong> </h1> 
               
      <p>Client's Name: ${name} </p> 
      <p>Client's Email: ${email} </p> 
@@ -41,7 +41,7 @@ const newMessage = async (req, res) => {
             <body style="  display:flex; padding:10px; height:100%; width:100%; background-color: rgb(245, 243, 240);"> 
             <div style="text-align:left; min-height:100%; padding:20px"> 
               <h1 style="color:white; text-align: center; padding: 10px; text-shadow:0px 11px 5px rgb(148, 132, 88);background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%); border-radius: 10px;"> <strong>iWebs</strong> </h1> 
-             <h2 style="color: rgb(11, 6, 61);">Hi <strong style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">${name}</strong></h2> 
+             <h2 style="color:#afafaf">Hi <strong style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">${name}</strong></h2> 
             <p style="padding:10px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:25px; text-alig:left !important; color:#afafaf; background-color: inherit; font-weight:400">We got your message, we will respond accordingly. <br/> <br/>Thank you!</p> 
             <div style="color:white; text-align: center; padding: 10px;background: inherit; border-radius: 10px; display: flex; justify-content: space-evenly;"> 
                 <a href="https://iwebs.onrender.com" style="text-decoration: none; color: white;box-shadow: inset 1px 2px 15px black; margin-right:20px; border-radius: 10px; padding: 5px; background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);">Goto site</a> 
