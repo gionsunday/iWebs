@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer')
   
   
 const newMessage = async (req, res) => { 
-    const {name, email, plan, message} = req.body 
+    const {name, email,phone, plan, message} = req.body 
       
         var transporter = nodemailer.createTransport({ 
             service :'gmail', 
@@ -42,10 +42,10 @@ const newMessage = async (req, res) => {
             <div style="text-align:left; min-height:100%; padding:20px"> 
               <h1 style="color:white; text-align: center; padding: 10px; text-shadow:0px 11px 5px rgb(148, 132, 88);background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%); border-radius: 10px;"> <strong>iWebs</strong> </h1> 
              <h2 style="color: rgb(11, 6, 61);">Hi <strong style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">${name}</strong></h2> 
-            <p style="padding:10px; font-family: cursive; font-size:25px; text-alig:left !important; color:#afafaf; background-color: inherit; font-weight:400">We got your message, we will respond accordingly. <br/> <br/>Thank you!</p> 
+            <p style="padding:10px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:25px; text-alig:left !important; color:#afafaf; background-color: inherit; font-weight:400">We got your message, we will respond accordingly. <br/> <br/>Thank you!</p> 
             <div style="color:white; text-align: center; padding: 10px;background: inherit; border-radius: 10px; display: flex; justify-content: space-evenly;"> 
-                <a href="http://iWebs.onrender.com" style="text-decoration: none; color: white;box-shadow: inset 1px 2px 15px black; margin-right:20px; border-radius: 10px; padding: 5px; background-color: rgb(219, 108, 17);">Goto site</a> 
-                <a href="tel:07065469493" style="text-decoration: none; color: white; border-radius: 10px;box-shadow: inset 1px 2px 15px black; margin-left:20px; padding: 5px; background-color: rgb(192, 99, 11);">Call Support</a> 
+                <a href="https://iwebs.onrender.com" style="text-decoration: none; color: white;box-shadow: inset 1px 2px 15px black; margin-right:20px; border-radius: 10px; padding: 5px; background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);">Goto site</a> 
+                <a href="tel:07065469493" style="text-decoration: none; color: white; border-radius: 10px;box-shadow: inset 1px 2px 15px black; margin-left:20px; padding: 5px; background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);">Call Support</a> 
             </div> 
         </div> 
          
