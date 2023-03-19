@@ -26,8 +26,8 @@ const newMessage = async (req, res) => {
      <p>Web plan: ${plan} </p> 
      <p>Inquiry message: ${message} </p> 
     
-    <p style="text-align:left !important; color:black; background-color: inherit; font-weight:200">Message: <strong style="font-size:25px">${message}</strong> </p> 
-    </div> 
+    <p style="text-align:left !important; color:black; background-color: inherit;">Message: <strong>${message}</strong> </p> 
+    </
     </body> 
  
              
@@ -41,8 +41,8 @@ const newMessage = async (req, res) => {
             <body style="  display:flex; padding:10px; height:100%; width:100%; background-color: rgb(245, 243, 240);"> 
             <div style="text-align:left; min-height:100%; padding:20px"> 
               <h1 style="color:white; text-align: center; padding: 10px; text-shadow:0px 11px 5px rgb(148, 132, 88);background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%); border-radius: 10px;"> <strong>iWebs</strong> </h1> 
-             <h2 style="color:#afafaf">Hi <strong style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">${name}</strong></h2> 
-            <p style="padding:10px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:25px; text-alig:left !important; color:#afafaf; background-color: inherit; font-weight:400">We got your message, we will respond accordingly. <br/> <br/>Thank you!</p> 
+             <h2 style="color:#afafaf">Hi <strong style="font-family:comic san ms, cursive;">${name}</strong></h2> 
+            <p style="padding:10px; font-family: comic san ms, cursive;  text-alig:left !important; color:#afafaf; background-color: inherit; font-weight:400">We got your message, we will respond accordingly. <br/> <br/>Thank you!</p> 
             <div style="color:white; text-align: center; padding: 10px;background: inherit; border-radius: 10px; display: flex; justify-content: space-evenly;"> 
                 <a href="https://iwebs.onrender.com" style="text-decoration: none; color: white;box-shadow: inset 1px 2px 15px black; margin-right:20px; border-radius: 10px; padding: 5px; background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);">Goto site</a> 
                 <a href="tel:07065469493" style="text-decoration: none; color: white; border-radius: 10px;box-shadow: inset 1px 2px 15px black; margin-left:20px; padding: 5px; background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);">Call Support</a> 
