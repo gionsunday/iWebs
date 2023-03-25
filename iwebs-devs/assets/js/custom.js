@@ -53,6 +53,26 @@ $("#modal_trigger03").leanModal({
   closeButton: ".modal_close"
 });
 
+$("#modal_trigger04").leanModal({ 
+   top: 100, 
+   overlay: 0.6, 
+   closeButton: ".modal_close" 
+ }); 
+ 
+
+$("#modal_trigger05").leanModal({ 
+   top: 100, 
+   overlay: 0.6, 
+   closeButton: ".modal_close" 
+ }); 
+
+
+$("#modal_trigger06").leanModal({ 
+   top: 100, 
+   overlay: 0.6, 
+   closeButton: ".modal_close" 
+ }); 
+  
 $(function() {
 		// Calling Login Form
 		$("#login_form").click(function() {
